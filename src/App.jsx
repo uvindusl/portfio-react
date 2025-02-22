@@ -1,4 +1,5 @@
 import "../src/css/App.css";
+import Education from "./components/Education";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import ProgramingL from "./components/ProgramingL";
@@ -51,6 +52,21 @@ function App() {
             />
           </div>
         </div>
+      </section>
+      <section className="timeline">
+        <div className="title-wrapper">
+          <div className="icon-box">
+            <icon-icon name="book-outline"></icon-icon>
+          </div>
+          <h3 className="h3">Eduction</h3>
+        </div>
+        <Education
+          edu={{
+            title: "Higher National Diploma in Software Engineering - NIBM",
+            date: "2024",
+            para: "",
+          }}
+        />
       </section>
     </div>
   );
