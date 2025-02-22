@@ -1,0 +1,33 @@
+main {
+  flex: 1;
+}
+
+.hero-section {
+  margin-top: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.highlight {
+  background-color: rgba(255, 217, 0, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.mainsubtext,
+.hero-section .para {
+  color: #fff;
+  text-align: center;
+}
+
+.hero-section .para {
+  white-space: pre-line;
+  display: inline-block;
+  max-width: 800px;
+  font-family: monospace;
+}
