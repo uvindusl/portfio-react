@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import ProgramingL from "./components/ProgramingL";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Work from "./components/Work";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
           }}
         />
       </section>
+      <Work />
     </div>
   );
 }
