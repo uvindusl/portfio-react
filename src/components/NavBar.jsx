@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/NavBar.css";
 import logo from "../assets/favicon.ico";
 
-function NavBar() {
+function NavBar({ navbar }) {
   return (
     <header className="rounded-header d-flex justify-content-between align-items-center">
       <nav className="navbar navbar-expand-lg navbar-light w-100">
@@ -34,22 +34,22 @@ function NavBar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="">
+                <a className="nav-link" href={navbar.home}>
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">
+                <a className="nav-link" href={navbar.education}>
                   Education
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">
+                <a className="nav-link" href={navbar.works}>
                   Works
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">
+                <a className="nav-link" href={navbar.contact}>
                   Contact
                 </a>
               </li>
