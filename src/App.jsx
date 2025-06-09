@@ -3,11 +3,8 @@ import Education from "./components/Education";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import ProgramingL from "./components/ProgramingL";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
-
-import train from "../src/assets/train.png";
 
 function App() {
   return (
