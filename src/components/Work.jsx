@@ -3,13 +3,13 @@ import "../css/Work.css";
 function Work({ work }) {
   return (
     <div>
-      <div class="col-md-5">
-        <div class="card">
-          <img src={work.img} class="card-img-top" alt={work.name} />
-          <div class="card-body">
-            <h5 class="card-title">{work.name}</h5>
-            <p class="card-text">{work.desc}</p>
-            <a href={work.link} class="btn btn-primary">
+      <div className="col-md-5">
+        <div className="card">
+          <img src={work.img} alt={work.name} className="card-img-top" />
+          <div className="card-body">
+            <h5 className="card-title">{work.name}</h5>
+            <p className="card-text">{work.desc}</p>
+            <a href={work.link} className="btn btn-primary">
               View Project
             </a>
           </div>
