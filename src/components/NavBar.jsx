@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/NavBar.css";
+import logo from "../assets/favicon.ico";
 
 function NavBar() {
   return (
@@ -8,9 +9,10 @@ function NavBar() {
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <a className="logo" href="">
             <img
-              src="../src/assets/favicon.ico"
+              src={logo}
               alt="Logo"
               className="logo-icon"
+              style={{ width: "20px", height: "20px" }}
             />
           </a>
 

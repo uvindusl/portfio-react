@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import ProgramingL from "./components/ProgramingL";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Work from "./components/Work";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                 url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
                 lan: "Java",
               }}
+              className="languageicon"
             />
             <ProgramingL
               image={{
@@ -69,7 +71,15 @@ function App() {
           }}
         />
       </section>
-      <Work />
+      <Work
+        work={{
+          img: "",
+          name: "",
+          desc: "",
+          link: "",
+        }}
+      />
+      <Footer />
     </div>
   );
 }
