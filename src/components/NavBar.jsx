@@ -55,6 +55,12 @@ function NavBar() {
               </li>
             </ul>
           </div>
+          <a
+            href="mailto:uvindusankalpa2021@gmail.com"
+            class="btn d-none d-lg-block"
+          >
+            Uvindu Sankalpa
+          </a>
         </div>
       </nav>
     </header>
