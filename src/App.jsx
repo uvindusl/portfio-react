@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
 
+import train from "../src/assets/train.png";
+
 function App() {
   return (
     <div>
@@ -71,14 +73,22 @@ function App() {
           }}
         />
       </section>
-      <Work
-        work={{
-          img: "",
-          name: "",
-          desc: "",
-          link: "",
-        }}
-      />
+      <section id="works" className="works-section text-center">
+        <div className="container">
+          <h3 className="section-title">My Projects</h3>
+          <div className="row justify-content-center">
+            <Work
+              work={{
+                img: "../src/assets/train.png",
+                name: "hi",
+                desc: "da",
+                link: "deda",
+              }}
+            />
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
