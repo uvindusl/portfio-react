@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/Education.css";
 
 function Education({ edu }) {

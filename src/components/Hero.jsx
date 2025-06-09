@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Typewriter from "typewriter-effect/dist/core";
 import "../css/Hero.css";
 
