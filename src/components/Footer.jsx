@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div>
-      <footer class="footer" id="footer">
+      <footer class="footer">
         <div class="container d-flex justify-content-between align-items-center flex-wrap">
           <div class="footer-section">
             <h6>Contact Me</h6>

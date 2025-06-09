@@ -33,21 +33,19 @@ function Hero() {
   }, []);
 
   return (
-    <main className="hero-section text-center" id="home">
-      <div className="container">
-        <h1>
-          <span ref={typewriterRef1} className="highlight"></span>
-        </h1>
+    <div className="container">
+      <h1>
+        <span ref={typewriterRef1} className="highlight"></span>
+      </h1>
 
-        {showSankalpa && <h2 className="mt-3 mainsubtext secname">Sankalpa</h2>}
+      {showSankalpa && <h2 className="mt-3 mainsubtext secname">Sankalpa</h2>}
 
-        <div className="paradiv">
-          <p className="mt-4 para">
-            <span ref={typewriterRef2}></span>
-          </p>
-        </div>
+      <div className="paradiv">
+        <p className="mt-4 para">
+          <span ref={typewriterRef2}></span>
+        </p>
       </div>
-    </main>
+    </div>
   );
 }
 
