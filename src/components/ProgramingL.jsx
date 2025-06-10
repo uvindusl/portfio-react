@@ -1,5 +1,3 @@
-import "../css/ProgramingL.css";
-
 function ProgramingL({ image }) {
   return (
     <div className="col-md-3">

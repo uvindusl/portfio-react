@@ -351,13 +351,13 @@ main {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
-.language-icon {
+.labguageicon {
   width: 80px;
   height: 80px;
   transition: transform 0.3s ease;
 }
 
-.language-box:hover .language-icon {
+.language-box:hover .labguageicon {
   transform: scale(1.3);
 }
 

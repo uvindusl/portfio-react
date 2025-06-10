@@ -1,5 +1,3 @@
-import "../css/Work.css";
-
 function Work({ work }) {
   return (
     <div className="col-md-5">

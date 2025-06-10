@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/NavBar.css";
 import logo from "../assets/favicon.ico";
 
 function NavBar({ navbar }) {

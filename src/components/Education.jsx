@@ -1,5 +1,3 @@
-import "../css/Education.css";
-
 function Education({ edu }) {
   return (
     <div className="timeline-list">
