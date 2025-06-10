@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import ProgramingL from "./components/ProgramingL";
 import Work from "./components/Work";
+import WorkNew from "./components/WorkNew";
 import Footer from "./components/Footer";
 
 function App() {
@@ -142,6 +143,17 @@ function App() {
                 img: "https://github.com/uvindusl/myportfolio/blob/main/src/Ead2.jpeg?raw=true",
                 name: "Microservice-based food ordering system with Java and React TS",
                 desc: "",
+                team: "Team Mates",
+                team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                team1name: "Harindu Vihan",
+                team2:
+                  "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                team2name: "Dinidu Gangadara",
+                team3:
+                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                team3name: "Thusathmi Sapumanage",
+                team4: "https://www.linkedin.com/in/dasuni-s-jayasinghe/",
+                team4name: "Dasuni Jayasinghe",
                 link: "https://drive.google.com/file/d/1SmPPMkrGZX4wec0aIydHvMSSid_nWI8N/view?usp=sharing",
               }}
             />
@@ -150,6 +162,15 @@ function App() {
                 img: "https://github.com/uvindusl/myportfolio/blob/main/src/Urbanfoods.jpeg?raw=true",
                 name: "Urban Foods (React Vite, Java Spring-boot, Oracle PL/SQL, MongoDB)",
                 desc: "",
+                team: "Team Mates",
+                team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                team1name: "Harindu Vihan",
+                team2:
+                  "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                team2name: "Dinidu Gangadara",
+                team3:
+                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                team3name: "Thusathmi Sapumanage",
                 link: "https://drive.google.com/file/d/1rOXtyceJYTk4DVmk9FkHPxDZQmc5eV06/view?usp=sharing",
               }}
             />
@@ -158,6 +179,15 @@ function App() {
                 img: "https://github.com/uvindusl/myportfolio/blob/main/src/cat-care.png?raw=true",
                 name: "Automated Cat Care Robot",
                 desc: "",
+                team: "Team Mates",
+                team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                team1name: "Harindu Vihan",
+                team2:
+                  "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                team2name: "Dinidu Gangadara",
+                team3:
+                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                team3name: "Thusathmi Sapumanage",
                 link: "https://github.com/mkdinindu/Robotics_HNDSE_Repo",
               }}
             />
@@ -166,6 +196,15 @@ function App() {
                 img: "https://github.com/uvindusl/myportfolio/blob/main/src/lms.png?raw=true",
                 name: "Student Course Tracker",
                 desc: "",
+                team: "Team Mates",
+                team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                team1name: "Harindu Vihan",
+                team2:
+                  "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                team2name: "Dinidu Gangadara",
+                team3:
+                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                team3name: "Thusathmi Sapumanage",
                 link: "https://github.com/uvindusl/dmwcw",
               }}
             />
@@ -178,16 +217,16 @@ function App() {
               className="row justify-content-center"
               style={{ marginTop: "20px" }}
             >
-              <Work
-                work={{
+              <WorkNew
+                worknew={{
                   img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
                   name: "Train Ticket Reservation System",
                   desc: "Simple Train Ticket Reservation System created using Java",
                   link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
                 }}
               />
-              <Work
-                work={{
+              <WorkNew
+                worknew={{
                   img: "https://github.com/uvindusl/myportfolio/blob/main/src/todoapp.png?raw=true",
                   name: "To Do Application",
                   desc: "To Do Application created using C# using VIsual Studio 2022",
@@ -199,6 +238,15 @@ function App() {
                   img: "https://github.com/uvindusl/myportfolio/blob/main/src/ECA.png?raw=true",
                   name: "Intelligent Energy Optimization System",
                   desc: "",
+                  team: "Team Mates",
+                  team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                  team1name: "Harindu Vihan",
+                  team2:
+                    "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                  team2name: "Dinidu Gangadara",
+                  team3:
+                    "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                  team3name: "Thusathmi Sapumanage",
                   link: "https://github.com/uvindusl/To-do-Application",
                 }}
               />
