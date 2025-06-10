@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import Typewriter from "typewriter-effect/dist/core";
-import "../css/Hero.css";
 
 function Hero() {
   const typewriterRef1 = useRef(null);

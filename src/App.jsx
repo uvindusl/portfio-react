@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "../src/css/App.css";
 import Education from "./components/Education";
 import Hero from "./components/Hero";
@@ -7,6 +8,12 @@ import Work from "./components/Work";
 import Footer from "./components/Footer";
 
 function App() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisiblilty = () => {
+    setIsVisible(!isVisible);
+  };
+
   return (
     <div>
       <NavBar
@@ -162,31 +169,41 @@ function App() {
                 link: "https://github.com/uvindusl/dmwcw",
               }}
             />
-            <Work
-              work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
-                name: "Train Ticket Reservation System",
-                desc: "Simple Train Ticket Reservation System created using Java",
-                link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
-              }}
-            />
-            <Work
-              work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/todoapp.png?raw=true",
-                name: "To Do Application",
-                desc: "To Do Application created using C# using VIsual Studio 2022",
-                link: "https://github.com/uvindusl/To-do-Application",
-              }}
-            />
-            <Work
-              work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/ECA.png?raw=true",
-                name: "Intelligent Energy Optimization System",
-                desc: "",
-                link: "https://github.com/uvindusl/To-do-Application",
-              }}
-            />
           </div>
+          <button onClick={toggleVisiblilty} className="hide-btn">
+            {isVisible ? " Hide " : " Show More "}
+          </button>
+          {isVisible && (
+            <div
+              className="row justify-content-center"
+              style={{ marginTop: "20px" }}
+            >
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
+                  name: "Train Ticket Reservation System",
+                  desc: "Simple Train Ticket Reservation System created using Java",
+                  link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
+                }}
+              />
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/todoapp.png?raw=true",
+                  name: "To Do Application",
+                  desc: "To Do Application created using C# using VIsual Studio 2022",
+                  link: "https://github.com/uvindusl/To-do-Application",
+                }}
+              />
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/ECA.png?raw=true",
+                  name: "Intelligent Energy Optimization System",
+                  desc: "",
+                  link: "https://github.com/uvindusl/To-do-Application",
+                }}
+              />
+            </div>
+          )}
         </div>
       </section>
       <div id="footer">
