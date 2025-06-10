@@ -159,7 +159,18 @@ main {
 }
 @media (max-width: 576px) {
   .highlight {
-    font-size: 23px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 300px) {
+  .highlight {
+    font-size: 15px;
+  }
+  .hero-section .para {
+    font-size: 10px;
+  }
+  .mainsubtext {
+    font-size: 15px;
   }
 }
 
