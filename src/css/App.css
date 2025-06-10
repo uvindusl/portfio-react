@@ -157,6 +157,11 @@ main {
   margin-bottom: 30px;
   color: #fff;
 }
+@media (max-width: 576px) {
+  .highlight {
+    font-size: 23px;
+  }
+}
 
 /* Footer */
 .footer {
