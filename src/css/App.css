@@ -393,4 +393,18 @@ main {
   border-radius: 10px;
   background-color: #ffd700;
   font-family: monospace;
+  padding: 10px 20px;
+  cursor: pointer; /* Indicate it's clickable */
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out; /* Smooth transitions for transform and background */
+}
+
+.hide-btn:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  background-color: #e0c500; /* Darker yellow on hover */
+}
+
+/* Add any existing styles for the hide/show text if you still have them */
+.hide-btn .hide,
+.hide-btn .show {
+  transition: opacity 0.3s ease-in-out; /* Keep text fade transition */
 }
