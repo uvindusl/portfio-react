@@ -210,7 +210,11 @@ function App() {
             />
           </div>
           <button onClick={toggleVisiblilty} className="hide-btn">
-            {isVisible ? " Hide " : " Show More "}
+            {isVisible ? (
+              <span className="hide">Hide</span>
+            ) : (
+              <span className="show">Show More</span>
+            )}
           </button>
           {isVisible && (
             <div

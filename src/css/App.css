@@ -230,32 +230,37 @@ main {
   }
 }
 
-/*timeline*/
+/* Modern Timeline Styles */
 .timeline {
   width: 80%;
   margin: 50px auto;
   position: relative;
-  left: 48%; /* Move slightly left */
-  transform: translateX(-50%); /* Adjust centering */
+  left: 48%;
+  transform: translateX(-50%);
 }
+
 .timeline .h3 {
   color: #fff;
+  font-weight: 600;
+  margin-bottom: 24px;
 }
+
 .title-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .icon-box {
-  margin-right: 10px;
+  margin-right: 12px;
   color: #ffd700;
   font-size: 24px;
 }
 
 .h3 {
   color: #fff;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .timeline-list {
@@ -265,8 +270,13 @@ main {
 }
 
 .timeline-item {
+  display: flex;
+  margin-bottom: 32px;
   position: relative;
-  margin-bottom: 40px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
 }
 
 .timeline-icon {
@@ -278,17 +288,24 @@ main {
   background-color: #ffd700;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(255, 215, 0, 0.8);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .timeline-content {
+  flex: 1;
   margin-left: 40px;
+  padding-top: 0;
 }
 
 .timeline-item-title {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   color: #ffd700;
   margin-bottom: 5px;
+  line-height: 1.4;
 }
 
 .timeline-date {
@@ -302,19 +319,74 @@ main {
   color: #fff;
   line-height: 1.6;
   font-family: monospace;
+  font-size: 20px;
+  margin: 0;
 }
 
-/* Timeline Mobile Adjustments */
+/* Variant styles for different states */
+.timeline-item.completed .timeline-icon::after {
+  content: "✓";
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-item.active .timeline-icon {
+  border: 2px solid #ffd700;
+  background-color: transparent;
+}
+
+.timeline-item.active .timeline-icon::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #ffd700;
+  border-radius: 50%;
+}
+
+.timeline-item.pending .timeline-icon {
+  border: 2px solid #666;
+  background-color: transparent;
+}
+
+.timeline-item.pending .timeline-icon::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #666;
+  border-radius: 50%;
+}
+
+.timeline-item.pending .timeline-item-title {
+  color: #999;
+}
+
+.timeline-item.pending .timeline-text {
+  color: #999;
+}
+
+/* Mobile Adjustments */
 @media (max-width: 576px) {
   .timeline {
-    width: 90%; /* Slightly expand the width for better visibility */
-    left: 45%; /* Adjust left positioning */
-    transform: translateX(-50%); /* Maintain proper centering */
-    margin: 40px auto; /* Adjust spacing */
+    width: 90%;
+    left: 45%;
+    transform: translateX(-50%);
+    margin: 40px auto;
   }
 
   .timeline-content {
-    margin-left: 30px; /* Reduce left margin for better fit */
+    margin-left: 30px;
+  }
+
+  .timeline-item-title {
+    font-size: 15px;
+  }
+
+  .timeline-text {
+    font-size: 13px;
   }
 }
 
@@ -393,4 +465,18 @@ main {
   border-radius: 10px;
   background-color: #ffd700;
   font-family: monospace;
+  padding: 10px 20px;
+  cursor: pointer; /* Indicate it's clickable */
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out; /* Smooth transitions for transform and background */
+}
+
+.hide-btn:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  background-color: #e0c500; /* Darker yellow on hover */
+}
+
+/* Add any existing styles for the hide/show text if you still have them */
+.hide-btn .hide,
+.hide-btn .show {
+  transition: opacity 0.3s ease-in-out; /* Keep text fade transition */
 }
