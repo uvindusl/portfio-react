@@ -383,3 +383,9 @@ main {
     height: 60px;
   }
 }
+.hide-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd700;
+  font-family: monospace;
+}

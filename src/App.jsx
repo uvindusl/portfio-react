@@ -169,20 +169,23 @@ function App() {
                 link: "https://github.com/uvindusl/dmwcw",
               }}
             />
-            <Work
-              work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
-                name: "Train Ticket Reservation System",
-                desc: "Simple Train Ticket Reservation System created using Java",
-                link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
-              }}
-            />
           </div>
           <button onClick={toggleVisiblilty} className="hide-btn">
-            {isVisible ? "Hide" : "Show More"}
+            {isVisible ? " Hide " : " Show More "}
           </button>
           {isVisible && (
-            <div className="row justify-content-center">
+            <div
+              className="row justify-content-center"
+              style={{ marginTop: "20px" }}
+            >
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
+                  name: "Train Ticket Reservation System",
+                  desc: "Simple Train Ticket Reservation System created using Java",
+                  link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
+                }}
+              />
               <Work
                 work={{
                   img: "https://github.com/uvindusl/myportfolio/blob/main/src/todoapp.png?raw=true",
