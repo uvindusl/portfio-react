@@ -1,7 +1,7 @@
 function Education({ edu }) {
   return (
     <div className="timeline-list">
-      <div className="timeline-item">
+      <div className="timeline-item completed">
         <div class="timeline-icon"></div>
         <div className="timeline-content">
           <h4 className="timeline-item-title">{edu.title}</h4>
