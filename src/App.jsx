@@ -7,6 +7,10 @@ import ProgramingL from "./components/ProgramingL";
 import Work from "./components/Work";
 import WorkNew from "./components/WorkNew";
 import Footer from "./components/Footer";
+import SmartHelmet from "./assets/SmartHelmet.png";
+import androidapp from "./assets/androidapp.jpg";
+import whatsapp from "./assets/whatsapp.png";
+import chatbot from "./assets/chatbot.png";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -138,29 +142,26 @@ function App() {
         <div className="container">
           <h3 className="section-title">My Projects</h3>
           <div className="row justify-content-center">
-            <Work
-              work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/Ead2.jpeg?raw=true",
-                name: "Microservice-based food ordering system with Java and React TS",
-                desc: "",
-                team: "Team Mates",
-                team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
-                team1name: "Harindu Vihan",
-                team2:
-                  "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
-                team2name: "Dinidu Gangadara",
-                team3:
-                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
-                team3name: "Thusathmi Sapumanage",
-                team4: "https://www.linkedin.com/in/dasuni-s-jayasinghe/",
-                team4name: "Dasuni Jayasinghe",
-                link: "https://drive.google.com/file/d/1SmPPMkrGZX4wec0aIydHvMSSid_nWI8N/view?usp=sharing",
+            <WorkNew
+              worknew={{
+                img: whatsapp,
+                name: "Unofficial WhatsApp for Ubuntu",
+                desc: "unofficial WhatsApp desktop application specifically optimized for Ubuntu, providing a seamless messaging experience directly from your desktop.",
+                link: "https://github.com/uvindusl/Whatsapp-for-linux",
+              }}
+            />
+            <WorkNew
+              worknew={{
+                img: chatbot,
+                name: "Chat Bot With Gemini API",
+                desc: "Jimmy the Robot is a friendly chatbot designed to assist users with their queries.",
+                link: "https://github.com/uvindusl/chat-bot-with-gemini",
               }}
             />
             <Work
               work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/Urbanfoods.jpeg?raw=true",
-                name: "Urban Foods (React Vite, Java Spring-boot, Oracle PL/SQL, MongoDB)",
+                img: androidapp,
+                name: "Science More - Android Mobile Application",
                 desc: "",
                 team: "Team Mates",
                 team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
@@ -168,16 +169,15 @@ function App() {
                 team2:
                   "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
                 team2name: "Dinidu Gangadara",
-                team3:
-                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
-                team3name: "Thusathmi Sapumanage",
-                link: "https://drive.google.com/file/d/1rOXtyceJYTk4DVmk9FkHPxDZQmc5eV06/view?usp=sharing",
+                team3: "https://www.linkedin.com/in/dasuni-s-jayasinghe/",
+                team3name: "Dasuni Jayasinghe",
+                link: "https://github.com/HarinduVihan/MAD-CW-2025",
               }}
             />
             <Work
               work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/cat-care.png?raw=true",
-                name: "Automated Cat Care Robot",
+                img: SmartHelmet,
+                name: "Smart Helmet With IOT",
                 desc: "",
                 team: "Team Mates",
                 team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
@@ -185,27 +185,7 @@ function App() {
                 team2:
                   "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
                 team2name: "Dinidu Gangadara",
-                team3:
-                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
-                team3name: "Thusathmi Sapumanage",
-                link: "https://github.com/mkdinindu/Robotics_HNDSE_Repo",
-              }}
-            />
-            <Work
-              work={{
-                img: "https://github.com/uvindusl/myportfolio/blob/main/src/lms.png?raw=true",
-                name: "Student Course Tracker",
-                desc: "",
-                team: "Team Mates",
-                team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
-                team1name: "Harindu Vihan",
-                team2:
-                  "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
-                team2name: "Dinidu Gangadara",
-                team3:
-                  "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
-                team3name: "Thusathmi Sapumanage",
-                link: "https://github.com/uvindusl/dmwcw",
+                link: "https://github.com/uvindusl/HNDSE-IOT-CW-2025",
               }}
             />
           </div>
@@ -221,6 +201,76 @@ function App() {
               className="row justify-content-center"
               style={{ marginTop: "20px" }}
             >
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/Ead2.jpeg?raw=true",
+                  name: "Microservice-based food ordering system with Java and React TS",
+                  desc: "",
+                  team: "Team Mates",
+                  team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                  team1name: "Harindu Vihan",
+                  team2:
+                    "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                  team2name: "Dinidu Gangadara",
+                  team3:
+                    "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                  team3name: "Thusathmi Sapumanage",
+                  team4: "https://www.linkedin.com/in/dasuni-s-jayasinghe/",
+                  team4name: "Dasuni Jayasinghe",
+                  link: "https://drive.google.com/file/d/1SmPPMkrGZX4wec0aIydHvMSSid_nWI8N/view?usp=sharing",
+                }}
+              />
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/Urbanfoods.jpeg?raw=true",
+                  name: "Urban Foods (React Vite, Java Spring-boot, Oracle PL/SQL, MongoDB)",
+                  desc: "",
+                  team: "Team Mates",
+                  team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                  team1name: "Harindu Vihan",
+                  team2:
+                    "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                  team2name: "Dinidu Gangadara",
+                  team3:
+                    "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                  team3name: "Thusathmi Sapumanage",
+                  link: "https://drive.google.com/file/d/1rOXtyceJYTk4DVmk9FkHPxDZQmc5eV06/view?usp=sharing",
+                }}
+              />
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/cat-care.png?raw=true",
+                  name: "Automated Cat Care Robot",
+                  desc: "",
+                  team: "Team Mates",
+                  team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                  team1name: "Harindu Vihan",
+                  team2:
+                    "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                  team2name: "Dinidu Gangadara",
+                  team3:
+                    "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                  team3name: "Thusathmi Sapumanage",
+                  link: "https://github.com/mkdinindu/Robotics_HNDSE_Repo",
+                }}
+              />
+              <Work
+                work={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/lms.png?raw=true",
+                  name: "Student Course Tracker",
+                  desc: "",
+                  team: "Team Mates",
+                  team1: "https://www.linkedin.com/in/harindu-vihan-186924299/",
+                  team1name: "Harindu Vihan",
+                  team2:
+                    "https://www.linkedin.com/in/dinidu-gangadara-b76a21339/",
+                  team2name: "Dinidu Gangadara",
+                  team3:
+                    "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
+                  team3name: "Thusathmi Sapumanage",
+                  link: "https://github.com/uvindusl/dmwcw",
+                }}
+              />
               <WorkNew
                 worknew={{
                   img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
