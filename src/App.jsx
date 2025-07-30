@@ -271,6 +271,22 @@ function App() {
                   link: "https://github.com/uvindusl/dmwcw",
                 }}
               />
+              <WorkNew
+                worknew={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
+                  name: "Train Ticket Reservation System",
+                  desc: "Simple Train Ticket Reservation System created using Java",
+                  link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
+                }}
+              />
+              <WorkNew
+                worknew={{
+                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/todoapp.png?raw=true",
+                  name: "To Do Application",
+                  desc: "To Do Application created using C# using VIsual Studio 2022",
+                  link: "https://github.com/uvindusl/To-do-Application",
+                }}
+              />
               <Work
                 work={{
                   img: "https://github.com/uvindusl/myportfolio/blob/main/src/ECA.png?raw=true",
@@ -285,22 +301,6 @@ function App() {
                   team3:
                     "https://www.linkedin.com/in/thusathmi-sapumanage-3460bb2b4/",
                   team3name: "Thusathmi Sapumanage",
-                  link: "https://github.com/uvindusl/To-do-Application",
-                }}
-              />
-              <WorkNew
-                worknew={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
-                  name: "Train Ticket Reservation System",
-                  desc: "Simple Train Ticket Reservation System created using Java",
-                  link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
-                }}
-              />
-              <WorkNew
-                worknew={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/todoapp.png?raw=true",
-                  name: "To Do Application",
-                  desc: "To Do Application created using C# using VIsual Studio 2022",
                   link: "https://github.com/uvindusl/To-do-Application",
                 }}
               />
