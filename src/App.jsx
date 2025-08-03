@@ -11,6 +11,13 @@ import SmartHelmet from "./assets/SmartHelmet.png";
 import androidapp from "./assets/androidapp.jpg";
 import whatsapp from "./assets/whatsapp.png";
 import chatbot from "./assets/chatbot.png";
+import lms from "./assets/lms.png";
+import catCare from "./assets/cat-care.png";
+import ead2 from "./assets/Ead2.jpeg";
+import eca from "./assets/ECA.png";
+import toDoApp from "./assets/todoapp.png";
+import train from "./assets/train.png";
+import urbanFoods from "./assets/Urbanfoods.jpeg";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -203,7 +210,7 @@ function App() {
             >
               <Work
                 work={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/Ead2.jpeg?raw=true",
+                  img: ead2,
                   name: "Microservice-based food ordering system with Java and React TS",
                   desc: "",
                   team: "Team Mates",
@@ -222,7 +229,7 @@ function App() {
               />
               <Work
                 work={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/Urbanfoods.jpeg?raw=true",
+                  img: urbanFoods,
                   name: "Urban Foods (React Vite, Java Spring-boot, Oracle PL/SQL, MongoDB)",
                   desc: "",
                   team: "Team Mates",
@@ -239,7 +246,7 @@ function App() {
               />
               <Work
                 work={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/cat-care.png?raw=true",
+                  img: catCare,
                   name: "Automated Cat Care Robot",
                   desc: "",
                   team: "Team Mates",
@@ -256,7 +263,7 @@ function App() {
               />
               <Work
                 work={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/lms.png?raw=true",
+                  img: lms,
                   name: "Student Course Tracker",
                   desc: "",
                   team: "Team Mates",
@@ -273,7 +280,7 @@ function App() {
               />
               <WorkNew
                 worknew={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/train.png?raw=true",
+                  img: train,
                   name: "Train Ticket Reservation System",
                   desc: "Simple Train Ticket Reservation System created using Java",
                   link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
@@ -281,7 +288,7 @@ function App() {
               />
               <WorkNew
                 worknew={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/todoapp.png?raw=true",
+                  img: toDoApp,
                   name: "To Do Application",
                   desc: "To Do Application created using C# using VIsual Studio 2022",
                   link: "https://github.com/uvindusl/To-do-Application",
@@ -289,7 +296,7 @@ function App() {
               />
               <Work
                 work={{
-                  img: "https://github.com/uvindusl/myportfolio/blob/main/src/ECA.png?raw=true",
+                  img: eca,
                   name: "Intelligent Energy Optimization System",
                   desc: "",
                   team: "Team Mates",
