@@ -10,19 +10,19 @@ function Work({ work }) {
             <h5>
               <b>{work.team}</b>
             </h5>
-            <a href={work.team1} class="team">
+            <a href={work.team1} className="team">
               {work.team1name}
             </a>
             <br></br>
-            <a href={work.team2} class="team">
+            <a href={work.team2} className="team">
               {work.team2name}
             </a>
             <br></br>
-            <a href={work.team3} class="team">
+            <a href={work.team3} className="team">
               {work.team3name}
             </a>
             <br></br>
-            <a href={work.team4} class="team">
+            <a href={work.team4} className="team">
               {work.team4name}
             </a>
             <br></br>
