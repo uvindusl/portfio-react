@@ -42,14 +42,31 @@ function App() {
 
       <section className="languages-section text-center">
         <div className="container">
-          <h3 className="section-title">Programing Languages</h3>
+          <h3 className="section-title">Tech Stack</h3>
           <div className="row justify-content-center">
+            <ProgramingL
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                lan: "Python",
+              }}
+            />
             <ProgramingL
               image={{
                 url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
                 lan: "Java",
               }}
-              className="languageicon"
+            />
+            <ProgramingL
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                lan: "JavaScript",
+              }}
+            />
+            <ProgramingL
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                lan: "React",
+              }}
             />
             <ProgramingL
               image={{
@@ -65,12 +82,6 @@ function App() {
             />
             <ProgramingL
               image={{
-                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-                lan: "JavaScript",
-              }}
-            />
-            <ProgramingL
-              image={{
                 url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
                 lan: "Html",
               }}
@@ -79,18 +90,6 @@ function App() {
               image={{
                 url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
                 lan: "CSS",
-              }}
-            />
-            <ProgramingL
-              image={{
-                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                lan: "React",
-              }}
-            />
-            <ProgramingL
-              image={{
-                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-                lan: "Python",
               }}
             />
             <ProgramingL
