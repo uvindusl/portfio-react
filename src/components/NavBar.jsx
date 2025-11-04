@@ -56,7 +56,7 @@ function NavBar({ navbar }) {
           </div>
           <a
             href="mailto:uvindusankalpa2021@gmail.com"
-            class="btn d-none d-lg-block"
+            className="btn d-none d-lg-block"
           >
             Uvindu Sankalpa
           </a>
