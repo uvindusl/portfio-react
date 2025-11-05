@@ -18,6 +18,8 @@ import eca from "./assets/ECA.png";
 import toDoApp from "./assets/todoapp.png";
 import train from "./assets/train.png";
 import urbanFoods from "./assets/Urbanfoods.jpeg";
+import github from "./assets/github.png"
+import voiceAssitant from "./assets/voiceassitant.png"
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -104,6 +106,24 @@ function App() {
                 lan: "typescript",
               }}
             />
+            <ProgramingL 
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neovim/neovim-original.svg",
+                lan: "neovim",
+              }}
+            />
+            <ProgramingL 
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                lan: "docker",
+              }}
+            />
+            <ProgramingL 
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg",
+                lan: "kubernetes",
+              }}
+            />
           </div>
         </div>
       </section>
@@ -148,22 +168,24 @@ function App() {
         <div className="container">
           <h3 className="section-title">My Projects</h3>
           <div className="row justify-content-center">
-            <WorkNew
+            <WorkNew 
               worknew={{
-                img: whatsapp,
-                name: "Unofficial WhatsApp for Ubuntu",
-                desc: "unofficial WhatsApp desktop application specifically optimized for Ubuntu, providing a seamless messaging experience directly from your desktop.",
-                link: "https://github.com/uvindusl/Whatsapp-for-linux",
+                img: voiceAssitant,
+                name: "Voice Assitant",
+                desc: "This is a personal voice assistant built with Python. It leverages Google's Gemini AI for content generation and a variety of libraries to handle speech recognition, text-to-speech, and web Browse commands.",
+                link: "https://github.com/uvindusl/voice-assistant-new"
               }}
             />
-            <WorkNew
+
+            <WorkNew 
               worknew={{
-                img: chatbot,
-                name: "Chat Bot With Gemini API",
-                desc: "Jimmy the Robot is a friendly chatbot designed to assist users with their queries.",
-                link: "https://github.com/uvindusl/chat-bot-with-gemini",
+                img: github,
+                name: "GitHub AI Assitant Bot",
+                desc: "This project implements a GitHub App written in Python using FastAPI and PyGithub. It integrates the Gemini API to provide advanced code review and feature generation capabilities directly through issue or pull request comments. It also includes a command-line interface (CLI) for manual bot interaction.",
+                link: "https://github.com/uvindusl/github-ai-bot"
               }}
             />
+
             <Work
               work={{
                 img: androidapp,
@@ -180,6 +202,7 @@ function App() {
                 link: "https://github.com/HarinduVihan/MAD-CW-2025",
               }}
             />
+
             <Work
               work={{
                 img: SmartHelmet,
@@ -194,6 +217,7 @@ function App() {
                 link: "https://github.com/uvindusl/HNDSE-IOT-CW-2025",
               }}
             />
+
           </div>
           <button onClick={toggleVisiblilty} className="hide-btn">
             {isVisible ? (
@@ -207,6 +231,24 @@ function App() {
               className="row justify-content-center"
               style={{ marginTop: "20px" }}
             >
+              <WorkNew
+                worknew={{
+                  img: whatsapp,
+                  name: "Unofficial WhatsApp for Ubuntu",
+                  desc: "unofficial WhatsApp desktop application specifically optimized for Ubuntu, providing a seamless messaging experience directly from your desktop.",
+                  link: "https://github.com/uvindusl/Whatsapp-for-linux",
+                }}
+              />
+
+              <WorkNew
+                worknew={{
+                  img: chatbot,
+                  name: "Chat Bot With Gemini API",
+                  desc: "Jimmy the Robot is a friendly chatbot designed to assist users with their queries.",
+                  link: "https://github.com/uvindusl/chat-bot-with-gemini",
+                }}
+              />
+
               <Work
                 work={{
                   img: ead2,
@@ -226,6 +268,7 @@ function App() {
                   link: "https://drive.google.com/file/d/1SmPPMkrGZX4wec0aIydHvMSSid_nWI8N/view?usp=sharing",
                 }}
               />
+
               <Work
                 work={{
                   img: urbanFoods,
@@ -243,6 +286,7 @@ function App() {
                   link: "https://drive.google.com/file/d/1rOXtyceJYTk4DVmk9FkHPxDZQmc5eV06/view?usp=sharing",
                 }}
               />
+
               <Work
                 work={{
                   img: catCare,
@@ -260,6 +304,7 @@ function App() {
                   link: "https://github.com/mkdinindu/Robotics_HNDSE_Repo",
                 }}
               />
+
               <Work
                 work={{
                   img: lms,
@@ -277,6 +322,7 @@ function App() {
                   link: "https://github.com/uvindusl/dmwcw",
                 }}
               />
+
               <WorkNew
                 worknew={{
                   img: train,
@@ -285,6 +331,7 @@ function App() {
                   link: "https://github.com/uvindusl/Train_Ticket_Reservation_System",
                 }}
               />
+
               <WorkNew
                 worknew={{
                   img: toDoApp,
@@ -293,6 +340,7 @@ function App() {
                   link: "https://github.com/uvindusl/To-do-Application",
                 }}
               />
+
               <Work
                 work={{
                   img: eca,
@@ -310,6 +358,7 @@ function App() {
                   link: "https://github.com/uvindusl/To-do-Application",
                 }}
               />
+
             </div>
           )}
         </div>
