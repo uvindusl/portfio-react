@@ -98,9 +98,9 @@ describe("App Component", () => {
 
     it("renders initial visible projects", () => {
       expect(
-        screen.getByText("Unofficial WhatsApp for Ubuntu")
+        screen.getByText("Voice Assitant")
       ).toBeInTheDocument();
-      expect(screen.getByText("Chat Bot With Gemini API")).toBeInTheDocument();
+      expect(screen.getByText("GitHub AI Assitant Bot")).toBeInTheDocument();
       expect(
         screen.getByText("Science More - Android Mobile Application")
       ).toBeInTheDocument();
