@@ -106,6 +106,24 @@ function App() {
                 lan: "typescript",
               }}
             />
+            <ProgramingL 
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neovim/neovim-original.svg",
+                lan: "neovim",
+              }}
+            />
+            <ProgramingL 
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                lan: "docker",
+              }}
+            />
+            <ProgramingL 
+              image={{
+                url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg",
+                lan: "kubernetes",
+              }}
+            />
           </div>
         </div>
       </section>
